@@ -1,0 +1,94 @@
+.header {
+    background:#000 url('#{$img-url}header-bg.jpg') no-repeat 50% 0;
+    min-width: $min-width;
+    height: 945px;
+    padding: 0 0 0 0;
+    margin: 0 0 85px;
+    color: #fff;
+
+    &__center {
+        height: 575px;
+        padding: 228px 0 0;
+    }
+
+    &__inner {
+        width: $min-width;
+        margin: 0 auto;
+        padding: 18px 0 0;
+    }
+
+    &__logo {
+        display: block;
+        width: 177px;
+        height: 95px;
+        overflow: hidden;
+        text-indent: -3000px;
+        background: url('#{$img-url}header-logo.png') no-repeat;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__phone {
+        font-size: 21px;
+        font-family: 'Roboto', sans-serif;
+        padding: 0 0 0 25px;
+        margin: 47px 0 0;
+        background: url('#{$img-url}icon-phone.gif') no-repeat 0 1px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 54px;
+        line-height: 56px;
+        font-weight: bold;
+        font-style: italic;
+        padding: 0 0 25px;
+    }
+
+    &-service {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+
+        &__item {
+            display: inline-block;
+            padding: 2px 35px 3px 16px;
+            background: url('#{$img-url}icon-14.png') no-repeat 100% 50%;
+
+            &:last-child {
+                background: none;
+            }
+        }
+    }
+
+    &-send-order {
+        height: 201px;
+        background: url('#{$img-url}pattern-grey-bg.gif');
+        padding: 35px 0 0;
+
+        &__title {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: 2px;
+            font-size: 24px;
+            text-transform: uppercase;
+            padding: 0 0 35px;
+        }
+
+        &__inner {
+            width: 775px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            .form__col {
+                width: 241px;
+            }
+        }
+    }
+}

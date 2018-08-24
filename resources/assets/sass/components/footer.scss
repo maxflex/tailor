@@ -1,0 +1,29 @@
+.footer {
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    &-clear-fix {
+        height: 120px;
+    }
+    
+    &__inner {
+        width: $min-width;
+        margin: 0 auto;
+        padding: 25px 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        display: block;
+        width: 140px;
+        height: 76px;
+        overflow: hidden;
+        text-indent: -3000px;
+        background: url('#{$img-url}footer-logo.jpg') no-repeat;
+    }
+
+}

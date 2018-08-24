@@ -1,0 +1,36 @@
+.send-order {
+    background: url('#{$img-url}pattern-grey-bg.gif');
+
+    &__inner {
+        background: url('#{$img-url}send-order-bg.jpg') no-repeat 50% 0;
+        height: 370px;
+    }
+
+    &__center {
+        width: $min-width;
+        margin: 0 auto;
+        padding: 50px 70px 0 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        color: #fff;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        width: 265px;
+    }
+
+    &__form {
+        width: 245px;
+
+        .form__col {
+            padding: 0 0 20px
+        }
+    }
+
+    .textarea {
+        height: 60px;
+    }
+}

@@ -1,0 +1,64 @@
+.catalog {
+    padding: 0 0 105px;
+
+    &-slider {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        &__item {
+            width: 407px;
+            text-align: center;
+            float: left;
+            padding: 0 15px; 
+
+            &__img {
+                padding: 0 0 25px;
+            }
+        }
+
+        &__img {
+            padding: 0 0 25px;
+        }
+
+        &__title {
+            font-size: 18px;
+            line-height: 24px;
+            color: #020000;
+            font-family: 'Roboto', sans-serif;
+            padding: 0 0 30px;
+        }
+
+        &__text {
+            color: $default-color;
+        }
+
+        &__wrapper {
+            padding: 0 45px;
+            position: relative;
+        }
+
+        &__arrow {
+            position: absolute;
+            top: 50%;
+            width: 20px;
+            height: 27px;
+            background: url('#{$img-url}icon-arrow.png') no-repeat;
+            margin: -13px 0 0;
+            cursor: pointer;
+
+            &_left {
+                left: 0;   
+            }
+            &_right {
+                right: 0;
+                background-position: -20px 0; 
+            }
+        }
+    }
+
+    &__button {
+        text-align: center;
+        padding: 60px 0 0;
+    }
+}

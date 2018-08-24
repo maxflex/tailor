@@ -1,0 +1,26 @@
+@import 'config';
+@import 'base/reset';
+
+@import 'base/body';
+
+@import 'modules/general';
+@import 'modules/animation';
+@import 'modules/media';
+
+@import 'components/header';
+@import 'components/header_menu';
+@import 'components/footer';
+@import 'components/form';
+@import 'components/button';
+@import 'components/about';
+@import 'components/benefits';
+@import 'components/catalog';
+@import 'components/partners_benefits';
+@import 'components/phone_order';
+@import 'components/price';
+@import 'components/fabrics';
+@import 'components/personal_approach';
+@import 'components/send_order';
+@import 'components/gift_certificate';
+@import 'components/contacts';
+@import 'components/pop_up';

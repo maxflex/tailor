@@ -1,0 +1,30 @@
+.header-menu {
+    margin: 0;
+    padding: 50px 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 507px;
+
+    &__item {
+        font-size: 16px;
+        align-items: flex-start;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &__link {
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0 0 6px 0;
+
+        &:hover {
+            color: $default-brown-color;
+        }
+        
+        &_active {
+            color: $default-brown-color;
+            border-bottom: 2px solid $default-brown-color;
+        }
+    }
+}

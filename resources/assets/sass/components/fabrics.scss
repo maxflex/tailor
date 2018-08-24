@@ -1,0 +1,29 @@
+.fabrics {
+    background:#f4f5f6 url('#{$img-url}fabrics-bg.jpg') no-repeat 50% 0;
+    min-width: $min-width;
+    padding: 75px 0 70px;
+    margin: 0 0 0;
+
+    &-list {
+        margin: 0;
+        padding: 25px 0 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &__img {
+            padding: 0 0 5px;
+        }
+
+        &__item {
+            width: 305px;
+            padding: 0 0 45px;
+            text-align: center;
+            color: $default-color;
+            font-size: 17px;
+            line-height: 24px;
+            font-style: italic;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.partners-benefits {
+    background:#020202 url('#{$img-url}partners-benefits-bg.jpg') no-repeat 50% 0;
+    min-width: $min-width;
+    color: $color-brown-text;
+    padding: 55px 0 10px 0;
+
+    h1 {
+        font-size: 36px;
+        line-height: 36px;
+        color: #cbcdd1;
+
+        &::before {
+            background: #cbcdd1;
+        }
+    }
+
+    .sub-title {
+        color: $color-brown-button;
+    }
+
+    &-list {
+        margin: 0;
+        padding: 40px 0 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &__item {
+            width: 270px;
+            padding: 85px 0 0;
+            margin: 0 0 65px;
+            color: $color-brown-text;
+
+            h2 {
+                color: $color-brown-button;
+                line-height: 28px;
+                padding: 0 0 15px;
+            }
+
+            &_icon-1 {
+                background: url('#{$img-url}icon-7.png') no-repeat 0 0;
+            }
+
+            &_icon-2 {
+                background: url('#{$img-url}icon-8.png') no-repeat 0 7px;
+            }
+
+            &_icon-3 {
+                background: url('#{$img-url}icon-9.png') no-repeat 0 7px;
+            }
+
+            &_icon-4 {
+                background: url('#{$img-url}icon-10.png') no-repeat 0 6px;
+            }
+
+            &_icon-5 {
+                background: url('#{$img-url}icon-11.png') no-repeat 0 6px;
+            }
+
+            &_icon-6 {
+                background: url('#{$img-url}icon-12.png') no-repeat 0 0;
+            }
+        }
+    }
+}

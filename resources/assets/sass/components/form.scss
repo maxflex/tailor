@@ -1,0 +1,81 @@
+$input-height: 44px;
+
+.input-text,
+.textarea {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    width: 100%;
+    height: $input-height;
+    line-height: $input-height;
+    font-size: 21px;
+    border: 0;
+    border-bottom: 3px solid $color-brown;
+    background: none;
+}
+
+.textarea {
+    height: auto;
+    line-height: 24px;
+}
+
+
+$input-height-from: 25px;
+
+.form {
+    &__container {
+        padding-right: 15px;
+        border-bottom: 1px solid $default-brown-color;
+        position: relative;
+
+        &_required {
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 15px;
+                right: 2px;
+                width: 4px;
+                height: 4px;
+                border-radius: 100%;
+                background: $color-red;
+            }
+        }
+    }
+
+    &__placeholder {
+        color: $default-brown-color;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &__text {
+        font-size: 16px;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        height: $input-height-from;
+        width: 100%;
+        line-height: $input-height-from;
+
+        &:active,
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__textarea {
+        width: 100%;
+        height: 65px;
+        overflow: auto;
+        resize: none;
+        border: 0;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        &:active,
+        &:focus {
+            outline: none;
+        }
+    }
+}

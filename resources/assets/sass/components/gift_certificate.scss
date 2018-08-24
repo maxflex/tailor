@@ -1,0 +1,15 @@
+.gift-certificate {
+    width: $min-width;
+    margin: 0 auto;
+    padding: 75px 0;
+    text-align: center;
+
+    &__price {
+        color: #000;
+        padding: 0 0 50px;
+    }
+
+    .button {
+        width: 400px;
+    }
+}
